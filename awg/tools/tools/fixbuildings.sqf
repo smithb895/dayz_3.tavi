@@ -1,0 +1,1 @@
+titleText ["Fixing buildings","PLAIN DOWN"];titleFadeOut 2;_awg_repair = (getPosATL player) nearObjects ["Building", 150000];_awg_fix=0;_break=1;{_x setDammage _awg_fix} forEach _awg_repair;

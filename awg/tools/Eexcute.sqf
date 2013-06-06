@@ -1,0 +1,1 @@
+[] execVM "awg\tools\AdminToolsMain.sqf";
